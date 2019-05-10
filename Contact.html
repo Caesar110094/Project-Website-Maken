@@ -27,13 +27,13 @@
       <a href="./Aboutme.html">About Me</a>
       <a class="active" href="/Contact.html">Contact</a>
     </nav> 
-    <div class="col-9 ">
-    <q>Als u contact wil nemen om wat voor reden dan ook, dan kunt u dat hier doen.</q>
-<h2>Formulier </h2>
-      <fieldset>
-        
+ 
+    <h2>Als u contact wil nemen om wat voor reden dan ook, dan kunt u dat hier doen.</h2>
+    <h2>We zullen zo spoedig proberen te antwoorden</h2>
      
-    <article>
+    <form>
+      <fieldset>
+        <legend>Formulier</legend>
     <FORM METHOD="post" ACTION="mailto:mijnnaam@gmail.com">
       Naam:
       <BR>
@@ -66,16 +66,14 @@
           <INPUT TYPE="checkbox" NAME="redencontact" VALUE="vraag"> Vraag:
           <BR>
           <INPUT TYPE="checkbox" NAME="redencontact" VALUE="niks"> Niks
-          <BR> Land:
-          <BR />
-          <SELECT NAME="wonen">
-<OPTION VALUE="Antillen">Antillen</OPTION>
-<OPTION VALUE="België">België</OPTION>
-<OPTION VALUE="Nederland">Nederland</OPTION>
-<OPTION VALUE="Suriname">Suriname</OPTION>
-</SELECT>
-  
-  Country code: 
+          <BR> 
+          Land:
+               <BR>
+      <INPUT TYPE="text" NAME="email" VALUE="Bijv. Nederland"required>
+      <SIZE="30">
+        </BR>
+          Country code: 
+        <BR>
           <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
           </BR>
 
@@ -86,6 +84,6 @@
  
           <INPUT TYPE="submit" VALUE="Verzenden" NAME="verzendbericht">
     </FORM>
-   </article>
    </fieldset>
+             </form>
               </div>
