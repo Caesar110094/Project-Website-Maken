@@ -123,6 +123,10 @@ img {
   height: auto;
 }
 
+caption {
+  font-size: 45px;
+}
+
 @media screen and (min-width: 600px) {
 .main-nav a {
   display: inline-block;
@@ -230,6 +234,9 @@ form {
   img {
   max-width: 100%;
   height: auto;
+}
+  caption {
+  font-size: 45px;
 }
 }
 
